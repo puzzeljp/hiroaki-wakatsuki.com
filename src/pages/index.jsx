@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Container from "../components/container"
 import Head from '../components/head'
 
@@ -13,11 +12,11 @@ export default function About() {
       <ul>
         <li>
           Portfolio: 
-          <Link to="https://puzzel.jp">puzzel.jp</Link>
+          <a href="https://puzzel.jp">puzzel.jp</a>
         </li>
         <li>
           Twitter:
-          <Link to="https://twitter.com/puzzeljp">@puzzeljp</Link>
+          <a href="https://twitter.com/puzzeljp">@puzzeljp</a>
         </li>
       </ul>
     </Container>
